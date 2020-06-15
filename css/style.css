@@ -1,0 +1,91 @@
+#app .theme-container .page .content__default {
+  max-width: none;
+  margin: 0;
+  /* margin-right: 250px; */
+  padding: 2rem 2.5rem;
+}
+
+#app .theme-container .page .right-group {
+  position: fixed;
+  right: 100px;
+  top: 100px;
+  width: 150px;
+}
+
+#app .theme-container .page .right-group .item {
+  text-align: center;
+  font-family: Roboto, Lato, sans-serif;
+  margin-bottom: 30px;
+}
+
+#app .theme-container .page .right-group .item .title {
+  display: inline-block;
+  color: #2878ff;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+/*  添加背景 */
+#app .theme-container .sidebar .sidebar-links li .sidebar-group ul li .active {
+  background-color: #2c3e50;
+}
+#app .theme-container .sidebar .sidebar-links li .sidebar-group ul li {
+  /* height: 40px; */
+}
+#app
+  .theme-container
+  .sidebar
+  .sidebar-links
+  li
+  .sidebar-group
+  ul
+  li
+  .sidebar-link {
+  font-weight: 600;
+  color: #3eaf7c;
+  border-left-color: #3eaf7c;
+  border-bottom: 1px solid #e5e5e5;
+  /* background-color: #2c3e50; */
+  /* height: 40px; */
+  float: left;
+  overflow: hidden;
+  line-height: 2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#app
+  .theme-container
+  .sidebar
+  .sidebar-links
+  li
+  .sidebar-group
+  ul
+  li
+  ul
+  li
+  .sidebar-link {
+  color: #2c3e50;
+  font-weight: 400;
+  background: none;
+  border: none;
+}
+#app
+  .theme-container
+  .sidebar
+  .sidebar-links
+  li
+  .sidebar-group
+  ul
+  li
+  ul
+  li
+  .active {
+  color: #3eaf7c;
+  background: none;
+}
+
+#app .theme-container .sidebar .sidebar-links li .sidebar-group {
+  border-bottom: 1px solid #e5e5e5;
+}
